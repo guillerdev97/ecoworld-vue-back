@@ -1,13 +1,12 @@
 package com.crud.product.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "products")
@@ -15,10 +14,10 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "product_name")
+    @Column(name = "product_name", nullable = false)
     private String name;
-    @Column(name = "product_cost")
+    @Column(name = "product_cost", nullable = false)
     private Float price;
-    @Column(name = "product_description")
+    @Column(name = "product_description", nullable = false)
     private String description;
 }
