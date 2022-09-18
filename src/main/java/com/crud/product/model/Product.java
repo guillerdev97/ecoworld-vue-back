@@ -20,4 +20,8 @@ public class Product {
     private Float price;
     @Column(name = "product_description", nullable = false)
     private String description;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
 }

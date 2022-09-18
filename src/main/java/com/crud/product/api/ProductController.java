@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/v1")
 public class ProductController {
     private final ProductRepository productRepository;
@@ -19,7 +20,7 @@ public class ProductController {
     }
 
     @GetMapping("/products")
-    public List<Product> getAllCoders() {
+    public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
 
@@ -34,7 +35,7 @@ public class ProductController {
     }
 
     @DeleteMapping("/product/delete/{id}")
-    public Product deleteCoderById(@PathVariable Long id) {
+    public Product deleteProductById(@PathVariable Long id) {
         Product product = productRepository.findById(id).orElseThrow(ProductNotFoundException::new);
         productRepository.deleteById(id);
         return product;
