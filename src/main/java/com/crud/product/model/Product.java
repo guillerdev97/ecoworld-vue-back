@@ -1,5 +1,6 @@
 package com.crud.product.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.*;
 
 import javax.persistence.*;
@@ -21,7 +22,7 @@ public class Product {
     @Column(name = "product_description", nullable = false)
     private String description;
 
-    @ManyToOne
+    @ManyToOne(optional = false, cascade = CascadeType.ALL)
     @JoinColumn(name = "category_id")
     private Category category;
 }
