@@ -107,7 +107,8 @@ Start the server
 
 ## Documentation
 
-- [Presentation PPTX]
+- [Historias de usuario](https://docs.google.com/document/d/1bu1sXLucbUUZImvh2dEEr0OyieFw_CcoXwYy5K9okBg/edit?usp=sharing)
+- [Presentation PPTX](https://docs.google.com/presentation/d/1Zc2Ych_LMoZlomHBk4lKgpdKfuSpdepYfNJxhFhCJbE/edit?usp=sharing)
 - [Prototype]
 - [UserFlow]
 
