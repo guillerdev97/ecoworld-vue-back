@@ -118,7 +118,7 @@ Develop branch: production word in this branch.
 - [User Stories](https://docs.google.com/document/d/1bu1sXLucbUUZImvh2dEEr0OyieFw_CcoXwYy5K9okBg/edit?usp=sharing)
 - [Prototype](https://www.figma.com/file/SsQaavzZ0BiLUkSxbW59qx/Eco-World?node-id=0%3A1)
 - [UserFlow Figma](https://www.figma.com/file/SsQaavzZ0BiLUkSxbW59qx/Eco-World?node-id=16%3A4)
-<img src="src/assets/img/userflow-eco-world.jpg" style="margin-left: 30px; width: 80%; margin: auto;">
+<img src="img/userflow-eco-world.jpg" style="margin-left: 30px; width: 80%; margin: auto;">
 
 
 ## Authors
