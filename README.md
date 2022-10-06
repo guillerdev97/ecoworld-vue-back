@@ -4,40 +4,46 @@ Eco World
 
 ***
 
+## Project
+
+The idea of this website is that it is scalable, and that in the future, it can be a professional website.
+
+On the other hand, the business logic is to sell ecological products, facilitating and putting Asturian SMEs and local stores in contact. It is a retail sale.
+
+The website belongs to the Asturian corporation of companies (SMEs), which have come together to give visibility to their products and strengthen their position against large companies.
+
+Asturian SMEs, farms and factories will be advertised on this website, and small local shops may purchase such products at retail.
+
+The website offers a point of contact for SMEs that want to join the corporation to do so.
+
 
 ## Contexto del proyecto
 
-Requisitos mínimos solicitados:
+## Functional Requirementes
 
 Frontend:
 
-    El uso de un framework no es obligatorio pero si recomendado (En el caso de no usar un framework se deberá utilizar un enpaquetador Ej: Parcel)
-    El frontend realizará solicitudes a la API REST
-    Desde la parte del front se tiene que poder realizar las acciónes de un CRUD
+    The use of a framework is not mandatory but it is recommended (In the case of not using a framework, a packager should be used Eg: Parcel).
+    The frontend will make requests to the REST API.
+    From the front part you have to be able to perform the actions of a CRUD.
+
+
 
 ​
 
 Backend:
 
-    La parte de backend se debe realizar con JAVA y utilizando Springboot
-    Se deberá contruir una API REST para que el front pueda consumir lo datos.
-    La API debe permitir realizar un CRUD
-
-​
-
-Extra:
-
-    Implementar la posibilidad de realizar una busqueda de un dato en concreto con un buscador
+    The backend part must be done with JAVA and using Springboot.
+    A REST API must be built so that the front can consume the data.
+    The API must allow performing a CRUD.
 
 
-## Description
+Extra requirements:
 
-
-## Functional Requirementes
+   Implement the possibility of performing a search for a specific piece of data with a search engine.
 
 
 ## Not Functional Requirements
-
 
 ## Presentation:
 
@@ -63,7 +69,7 @@ Extra:
 
 Clone the project
 ```bash
-  git clone https://github.com/guillerdev97/ecoworld-vue-front.git
+  git clone https://github.com/guillerdev97/ecoworld-vue-back.git
 ```
 
 Create a local database in phpMyAdmin with user: root, password: "".
@@ -72,7 +78,7 @@ Execute migration: "php artisant migration:fresh --seed".
 
 Go to the project directory
 ```bash
-  cd ecoworld-vue-front
+  cd ecoworld-vue-back
 ```
 
 Install dependencies
@@ -108,11 +114,11 @@ Develop branch: production word in this branch.
 
 ## Documentation
 
-- [Presentation PPTX](https://docs.google.com/presentation/d/1Zc2Ych_LMoZlomHBk4lKgpdKfuSpdepYfNJxhFhCJbE/edit?usp=sharing)
+- [Project](https://docs.google.com/document/d/1IRVNS3ypx5EiL-3-bowJrX5P6STYCfkLCm1ctaQSDPU/edit?usp=sharing)
 - [User Stories](https://docs.google.com/document/d/1bu1sXLucbUUZImvh2dEEr0OyieFw_CcoXwYy5K9okBg/edit?usp=sharing)
 - [Prototype](https://www.figma.com/file/SsQaavzZ0BiLUkSxbW59qx/Eco-World?node-id=0%3A1)
 - [UserFlow Figma](https://www.figma.com/file/SsQaavzZ0BiLUkSxbW59qx/Eco-World?node-id=16%3A4)
-<img src="img/userflow-eco-world.jpg" style="margin-left: 30px; width: 80%; margin: auto;">
+<img src="src/assets/img/userflow-eco-world.jpg" style="margin-left: 30px; width: 80%; margin: auto;">
 
 
 ## Authors
