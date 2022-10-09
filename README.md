@@ -6,18 +6,16 @@ Eco World
 
 ## Project
 
-The idea of this website is that it is scalable, and that in the future, it can be a professional website.
+In a nutshell, this website aims to be a portal to advertise and buy and sell organic products from Asturias.
 
-On the other hand, the business logic is to sell ecological products, facilitating and putting Asturian SMEs and local stores in contact. It is a retail sale.
+I have designed and created a website for Eco Astur, a corporation of small companies (Asturian farms) that have joined together to promote their local businesses and encourage the consumption of organic products.
 
-The website belongs to the Asturian corporation of companies (SMEs), which have come together to give visibility to their products and strengthen their position against large companies.
+The philosophy or reason for the union is to have greater visibility against large companies.
 
-Asturian SMEs, farms and factories will be advertised on this website, and small local shops may purchase such products at retail.
+On the other hand, the business logic is clear, the sale of organic products to local stores.
 
-The website offers a point of contact for SMEs that want to join the corporation to do so.
+Finally, I present a totally initial mvp, since my intention is to make mvp to mvp a product as professional and scalable as possible, improving the implementations or incorporating new ones.
 
-
-## Contexto del proyecto
 
 ## Functional Requirementes
 
@@ -31,7 +29,7 @@ Frontend: [link to frontend project](https://github.com/guillerdev97/ecoworld-vu
 
 ​
 
-Backend: [link to frontend project](https://github.com/guillerdev97/ecoworld-vue-back)
+Backend: [link to backend project](https://github.com/guillerdev97/ecoworld-vue-back)
 
     The backend part must be done with JAVA and using Springboot.
     A REST API must be built so that the front can consume the data.
@@ -71,28 +69,20 @@ Clone the project
 ```bash
   git clone https://github.com/guillerdev97/ecoworld-vue-back.git
 ```
-
-Create a local database in phpMyAdmin with user: root, password: "".
-Name of the database: products.
-Execute migration: "php artisant migration:fresh --seed".
-
 Go to the project directory
 ```bash
   cd ecoworld-vue-back
 ```
 
-Install dependencies
-```bash
-  composer update
-  npm install
-```
-
 Start the server
 ```bash
   run Apache and MySQL server in XAMPP
-  php artisan serve
-  npm run dev
 ```
+
+Create a local database in phpMyAdmin with user: root, password: "".
+Name of the database: products.
+Execute migration: run NameApplication, in this case, ProductApplication.
+
 
 ## Work methodology
 
@@ -102,7 +92,7 @@ Start the server
 
 
 ## Versions
-Main branch: stable work done in this branch.
+Main branch: stable work done in this branch.<br>
 Develop branch: production word in this branch.
 
 #### Tools and technologies used
@@ -114,11 +104,12 @@ Develop branch: production word in this branch.
 
 ## Documentation
 
-- [Project](https://docs.google.com/document/d/1IRVNS3ypx5EiL-3-bowJrX5P6STYCfkLCm1ctaQSDPU/edit?usp=sharing)
+- [Project Documentation](https://docs.google.com/document/d/1IRVNS3ypx5EiL-3-bowJrX5P6STYCfkLCm1ctaQSDPU/edit?usp=sharing)
+- [Jira](https://docs.google.com/document/d/1vns9pYw-Y20vr_fFuWoNSeCj_CwwS2UkvuEIN1g1HJU/edit?usp=sharing)
 - [User Stories](https://docs.google.com/document/d/1bu1sXLucbUUZImvh2dEEr0OyieFw_CcoXwYy5K9okBg/edit?usp=sharing)
 - [Prototype](https://www.figma.com/file/SsQaavzZ0BiLUkSxbW59qx/Eco-World?node-id=0%3A1)
 - [UserFlow Figma](https://www.figma.com/file/SsQaavzZ0BiLUkSxbW59qx/Eco-World?node-id=16%3A4)
-<img src="img/userflow-eco-world.jpg" style="margin-left: 30px; width: 80%; margin: auto;">
+<img src="src/assets/img/userflow-eco-world.jpg" style="margin-left: 30px; width: 80%; margin: auto;">
 
 
 ## Authors
